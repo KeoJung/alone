@@ -18,13 +18,13 @@ body {
   background: linear-gradient(120deg, #3a3a3a, #222);
   padding: 3rem 1rem;
   text-align: center;
-  border-bottom: 2px solid #ffcc00;
+  border-bottom: 2px solid #b7dbff;
 }
 
 .personal-header h1 {
   font-size: 3rem;
   margin: 0;
-  color: #ffcc00;
+  color: #b7dbff;
   letter-spacing: 2px;
 }
 
@@ -47,8 +47,8 @@ body {
   height: 180px;
   border-radius: 50%;
   object-fit: cover;
-  border: 4px solid #ffcc00;
-  box-shadow: 0 0 15px #ffcc00;
+  border: 4px solid #b7dbff;
+  box-shadow: 0 0 15px #b7dbff;
   flex-shrink: 0;
 }
 
@@ -57,7 +57,7 @@ body {
 }
 
 .profile-info h2 {
-  color: #ffcc00;
+  color: #b7dbff;
   margin-bottom: 1rem;
 }
 
@@ -78,8 +78,8 @@ body {
 
 .tab-btn {
   background: transparent;
-  border: 2px solid #ffcc00;
-  color: #ffcc00;
+  border: 2px solid #b7dbff;
+  color: #b7dbff;
   padding: 0.6rem 1.4rem;
   border-radius: 30px;
   cursor: pointer;
@@ -90,12 +90,12 @@ body {
 }
 
 .tab-btn:hover {
-  background-color: #ffcc00;
+  background-color: #a5a6a7;
   color: #222;
 }
 
 .tab-btn.active {
-  background-color: #ffcc00;
+  background-color: #a5a6a7;
   color: #222;
 }
 
@@ -120,7 +120,7 @@ body {
 }
 
 .projects-list a {
-  color: #ffcc00;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 600;
 }
@@ -149,4 +149,15 @@ footer {
   .tab-buttons {
     justify-content: center;
   }
+}
+
+#contact a {
+  color: #4fc3f7; /* 원하는 색상으로 변경 가능 */
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+  color: #81d4fa; /* hover 시 색상도 설정 */
 }
