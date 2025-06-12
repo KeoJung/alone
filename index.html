@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>개인 페이지 | 홍길동</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="personal-header">
+      <div class="container">
+        <h1>홍길동</h1>
+        <p class="subtitle">웹 개발자 & 보안 연구자</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="profile-section">
+        <img src="profile.jpg" alt="홍길동 프로필 사진" class="profile-photo" />
+        <div class="profile-info">
+          <h2>소개</h2>
+          <p>
+            안녕하세요, 저는 웹 보안과 프론트엔드 개발을 좋아하는 홍길동입니다.
+            사용자 친화적이고 보안에 강한 웹 서비스를 만드는 것을 목표로 합니다.
+          </p>
+        </div>
+      </section>
+
+      <section class="skills-projects">
+        <div class="tab-buttons">
+          <button class="tab-btn active" data-target="skills">기술 스택</button>
+          <button class="tab-btn" data-target="projects">프로젝트</button>
+          <button class="tab-btn" data-target="contact">연락처</button>
+        </div>
+
+        <div id="skills" class="tab-content active">
+          <ul class="skills-list">
+            <li>HTML5 / CSS3 / JavaScript (ES6+)</li>
+            <li>React / Vue.js</li>
+            <li>Node.js / Express</li>
+            <li>Python (Flask, Django)</li>
+            <li>웹 보안: OWASP, 세션 관리, XSS, CSRF 대응</li>
+            <li>Docker, Git/GitHub</li>
+          </ul>
+        </div>
+
+        <div id="projects" class="tab-content">
+          <ul class="projects-list">
+            <li>
+              <strong>오픈소스 취약점 알림 서비스</strong> -
+              <a
+                href="https://github.com/honggil-dong/vuln-alert"
+                target="_blank"
+                rel="noopener"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <strong>ARP 스푸핑 시나리오 시뮬레이터</strong> -
+              <a
+                href="https://portfolio.honggil-dong.com/arp-simulator"
+                target="_blank"
+                rel="noopener"
+                >포트폴리오</a
+              >
+            </li>
+            <li>
+              <strong>개인 블로그</strong> -
+              <a
+                href="https://blog.honggil-dong.com"
+                target="_blank"
+                rel="noopener"
+                >blog.honggil-dong.com</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div id="contact" class="tab-content">
+          <p>
+            이메일: <a href="mailto:honggil@example.com">honggil@example.com</a>
+          </p>
+          <p>
+            GitHub:
+            <a
+              href="https://github.com/honggil-dong"
+              target="_blank"
+              rel="noopener"
+              >github.com/honggil-dong</a
+            >
+          </p>
+          <p>
+            LinkedIn:
+            <a
+              href="https://linkedin.com/in/honggil-dong"
+              target="_blank"
+              rel="noopener"
+              >linkedin.com/in/honggil-dong</a
+            >
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 홍길동. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
