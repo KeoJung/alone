@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>개인 페이지 | 정연서</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="personal-header">
+      <div class="container">
+        <h1>정연서</h1>
+        <p class="subtitle">92410897 정보보호학과</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="profile-section">
+        <img
+          src="https://avatars.githubusercontent.com/u/202579099?s=400&v=4"
+          alt="정연서"
+          class="profile-photo"
+        />
+        <div class="profile-info">
+          <h2>소개</h2>
+          <p>
+            현재 웹해킹 분야를 공부하고 있는 정보보호학과 학생입니다. 웹
+            애플리케이션의 취약점 분석과 보안 강화에 관심이 많으며, 다양한
+            오픈소스 프로젝트에 관심을 가지고 있습니다.
+          </p>
+        </div>
+      </section>
+
+      <section class="skills-projects">
+        <div class="tab-buttons">
+          <button class="tab-btn active" data-target="skills">
+            하고있는 공부
+          </button>
+          <button class="tab-btn" data-target="projects">프로젝트</button>
+          <button class="tab-btn" data-target="contact">연락처</button>
+          <button class="tab-btn" data-target="done-projects">수행한 프로젝트</button>
+        </div>
+
+        <div id="skills" class="tab-content active">
+          <ul class="skills-list">
+            <li>웹해킹</li>
+            <li>데이터베이스 공부</li>
+            <li>로그인 기능 구현하기</li>
+            <li>코드 패턴 만들기</li>
+            <li>게시판 기능 구현하기</li>
+            <li>모의해킹 공부하기</li>
+          </ul>
+        </div>
+
+        <div id="projects" class="tab-content">
+          <ul class="projects-list">
+            <li>기말고사 웹페이지 만들기</li>
+            <li>중간고사 웹페이지 만들기</li>
+            <li>개인 티스토리 개발</li>
+          </ul>
+        </div>
+
+        <div id="contact" class="tab-content">
+          <p>
+            이메일: <a href="april050406@gmail.com">april050406@gmail.com</a>
+          </p>
+          <p>
+            GitHub:
+            <a href="https://github.com/KeoJung" target="_blank" rel="noopener"
+              >github</a
+            >
+          </p>
+          <p>
+            tistory:
+            <a
+              href="https://april6947.tistory.com/"
+              target="_blank"
+              rel="noopener"
+              >tistory</a
+            >
+          </p>
+        </div>
+
+        <div id="done-projects" class="tab-content">
+          <p>
+            중간 메인페이지: <a href="midterm-ov76.vercel.app">메인페이지</a>
+          </p>
+          <p>
+            중간 개인페이지: 
+            <a href="jungyeonseo.vercel.app" target="_blank" rel="noopener"
+              >개인페이지</a
+            >
+          </p>
+          <p>
+            기말 메인페이지: 
+            <a
+              href="end-beige-ten.vercel.app"
+              target="_blank"
+              rel="noopener"
+              >기말</a
+            >
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 정연서. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
