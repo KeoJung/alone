@@ -129,6 +129,10 @@ body {
   text-decoration: underline;
 }
 
+#done-projects a {
+  color: #a5a6a7; /* 원하는 색상 코드로 변경 */
+}
+
 footer {
   text-align: center;
   padding: 1rem 0;
