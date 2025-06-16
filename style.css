@@ -165,3 +165,8 @@ footer {
   text-decoration: underline;
   color: #81d4fa; /* hover 시 색상도 설정 */
 }
+
+.tab-btn.active {
+  background-color: #4f46e5; /* indigo-600 */
+  color: white;
+}
